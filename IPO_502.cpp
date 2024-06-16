@@ -3,7 +3,7 @@ using namespace std;
 
 int findMaximizedCapital(int k, int w, vector<int> &profits, vector<int> &capital)
 {
-    priority_queue<pair<int, int>, vector<pair<int, int> >, greater<pair<int, int> > > p;
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> p;
     priority_queue<int> q;
 
     for (int i = 0; i < capital.size(); i++)
